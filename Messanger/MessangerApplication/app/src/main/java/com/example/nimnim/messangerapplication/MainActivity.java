@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         EditText editText = (EditText)findViewById(R.id.editText);
         Button sendButton = (Button) findViewById(R.id.sendBtn);
 
-        String userName = "user" + new Random().nextInt(10000);  // 랜덤한 유저 이름 설정 ex) user1234
+        String userName = "user" + new Random().nextInt(10000);  // 랜덤한 유저 이름 설정
 
         // 기본 Text를 담을 수 있는 simple_list_item_1을 사용해서 ArrayAdapter를 만들고 listview에 설정
         ArrayAdapter adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, android.R.id.text1);
