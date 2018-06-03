@@ -1,27 +1,31 @@
 {
   "project_info": {
-    "project_number": "391254407951",
-    "firebase_url": "https://ccc-messanger-d6102.firebaseio.com",
-    "project_id": "ccc-messanger-d6102",
-    "storage_bucket": "ccc-messanger-d6102.appspot.com"
+    "project_number": "106267570255",
+    "firebase_url": "https://messenger-41761.firebaseio.com",
+    "project_id": "messenger-41761",
+    "storage_bucket": "messenger-41761.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:391254407951:android:fb74f7982404ffe9",
+        "mobilesdk_app_id": "1:106267570255:android:f34608035f9ce02d",
         "android_client_info": {
-          "package_name": "com.example.nimnim.messangerapplication"
+          "package_name": "com.seclass.ccc"
         }
       },
       "oauth_client": [
         {
-          "client_id": "391254407951-e1rab6l5g7rau56mca967arrd3ogqdtv.apps.googleusercontent.com",
+          "client_id": "106267570255-m8s2cplb5mbt15sgb0ou5b14v156vloq.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "106267570255-m8s2cplb5mbt15sgb0ou5b14v156vloq.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAATlm-YmJ69lF8KAJkXlATjI0QxxSB2jo"
+          "current_key": "AIzaSyCU70BsduNMJMZGtB2bzk296M8H4jOOiIQ"
         }
       ],
       "services": {
