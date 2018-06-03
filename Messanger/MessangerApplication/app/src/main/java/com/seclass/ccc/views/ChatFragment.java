@@ -16,10 +16,10 @@ import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.*;
-import firebase.hucloud.com.firetalk.R;
-import firebase.hucloud.com.firetalk.adapters.ChatListAdapter;
-import firebase.hucloud.com.firetalk.customviews.RecyclerViewItemClickListener;
-import firebase.hucloud.com.firetalk.models.*;
+import com.seclass.ccc.R;
+import com.seclass.ccc.adapters.ChatListAdapter;
+import com.seclass.ccc.customviews.RecyclerViewItemClickListener;
+import com.seclass.ccc.models.*;
 
 import java.util.Date;
 import java.util.Iterator;

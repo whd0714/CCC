@@ -9,9 +9,9 @@ import android.widget.TextView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import com.bumptech.glide.Glide;
-import firebase.hucloud.com.firetalk.R;
-import firebase.hucloud.com.firetalk.customviews.RoundedImageView;
-import firebase.hucloud.com.firetalk.models.User;
+import com.seclass.ccc.R;
+import com.seclass.ccc.customviews.RoundedImageView;
+import com.seclass.ccc.models.User;
 
 import java.util.ArrayList;
 

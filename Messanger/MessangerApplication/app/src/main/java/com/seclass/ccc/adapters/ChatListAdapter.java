@@ -8,11 +8,11 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import firebase.hucloud.com.firetalk.R;
-import firebase.hucloud.com.firetalk.customviews.RoundedImageView;
-import firebase.hucloud.com.firetalk.models.Chat;
-import firebase.hucloud.com.firetalk.models.Message;
-import firebase.hucloud.com.firetalk.views.ChatFragment;
+import com.seclass.ccc.R;
+import com.seclass.ccc.customviews.RoundedImageView;
+import com.seclass.ccc.models.Chat;
+import com.seclass.ccc.models.Message;
+import com.seclass.ccc.views.ChatFragment;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

@@ -24,9 +24,9 @@ import com.google.firebase.database.*;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-import firebase.hucloud.com.firetalk.R;
-import firebase.hucloud.com.firetalk.adapters.MessageListAdapter;
-import firebase.hucloud.com.firetalk.models.*;
+import com.seclass.ccc.R;
+import com.seclass.ccc.adapters.MessageListAdapter;
+import com.seclass.ccc.models.*;
 
 import java.util.*;
 

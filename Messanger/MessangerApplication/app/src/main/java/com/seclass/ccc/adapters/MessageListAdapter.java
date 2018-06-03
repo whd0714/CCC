@@ -11,11 +11,11 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import com.bumptech.glide.Glide;
 import com.google.firebase.auth.FirebaseAuth;
-import firebase.hucloud.com.firetalk.R;
-import firebase.hucloud.com.firetalk.customviews.RoundedImageView;
-import firebase.hucloud.com.firetalk.models.Message;
-import firebase.hucloud.com.firetalk.models.PhotoMessage;
-import firebase.hucloud.com.firetalk.models.TextMessage;
+import com.seclass.ccc.R;
+import com.seclass.ccc.customviews.RoundedImageView;
+import com.seclass.ccc.models.Message;
+import com.seclass.ccc.models.PhotoMessage;
+import com.seclass.ccc.models.TextMessage;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

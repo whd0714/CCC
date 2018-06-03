@@ -6,9 +6,10 @@ import android.graphics.Bitmap.Config;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
-import android.widget.ImageView;
+import android.support.v7.widget.AppCompatImageView;
+//import android.widget.ImageView;;
 
-public class RoundedImageView extends ImageView {
+public class RoundedImageView extends AppCompatImageView {
 
     public RoundedImageView(Context context) {
         super(context);

@@ -19,5 +19,10 @@ public class User {
         this.profileUrl = profileUrl;
     }
 
-
+    public String getUid(){
+        return this.uid;
+    }
+    public String getEmail(){
+        return this.getEmail();
+    }
 }
