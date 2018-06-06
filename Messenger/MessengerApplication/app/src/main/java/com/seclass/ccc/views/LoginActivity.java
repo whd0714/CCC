@@ -128,18 +128,18 @@ public class LoginActivity extends AppCompatActivity {
         }).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
-
-                if (task.isComplete()) {
-                    if (task.isSuccessful()) {
+                System.out.println("test!!\n");
+                if (task.isComplete()) { //성공 or 실패
+                    if (task.isSuccessful()) { //성공한 경우만
                         FirebaseUser firebaseUser = task.getResult().getUser();
-                        final User user = new User(firebaseUser.getUid(), firebaseUser.getEmail(), firebaseUser.getDisplayName(), firebaseUser.getPhotoUrl().toString());
-                        /*
+                        final User user = new User();
+
                         user.setEmail(firebaseUser.getEmail());
                         user.setName(firebaseUser.getDisplayName());
                         user.setUid(firebaseUser.getUid());
                         if ( firebaseUser.getPhotoUrl() != null )
                             user.setProfileUrl(firebaseUser.getPhotoUrl().toString());
-                        */
+
                         mUserRef.child(user.getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
                             @Override
                             public void onDataChange(DataSnapshot dataSnapshot) {
