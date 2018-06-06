@@ -58,11 +58,12 @@ public class LoginActivity extends AppCompatActivity {
         mProgressView = (ProgressBar) findViewById(R.id.login_progress);
         mSignInbtn = (SignInButton) findViewById(R.id.google_sign_in_btn);
         mAuth = FirebaseAuth.getInstance();
+        /*
         if ( mAuth.getCurrentUser() != null ) {
             startActivity(new Intent(LoginActivity.this, MainActivity.class));
             finish();
             return;
-        }
+        }*/
         mDatabase = FirebaseDatabase.getInstance();
         mUserRef = mDatabase.getReference("users");
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
@@ -128,7 +129,6 @@ public class LoginActivity extends AppCompatActivity {
         }).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
-                System.out.println("test!!\n");
                 if (task.isComplete()) { //성공 or 실패
                     if (task.isSuccessful()) { //성공한 경우만
                         FirebaseUser firebaseUser = task.getResult().getUser();
