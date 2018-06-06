@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "106267570255",
+    "firebase_url": "https://messenger-41761.firebaseio.com",
+    "project_id": "messenger-41761",
+    "storage_bucket": "messenger-41761.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106267570255:android:f34608035f9ce02d",
+        "android_client_info": {
+          "package_name": "com.seclass.ccc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106267570255-m8s2cplb5mbt15sgb0ou5b14v156vloq.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "106267570255-m8s2cplb5mbt15sgb0ou5b14v156vloq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU70BsduNMJMZGtB2bzk296M8H4jOOiIQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
