@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="major">
+        <item>컴퓨터공학부</item>
+        <item>컴퓨터웨어전공</item>
+        <item>소프트웨어학부</item>
+        <item>소프트웨어전공</item>
+        <item>전자전기공학부</item>
+        <item>사회기반시스템공학부</item>
+        <item>건설환경플랜트공학전공</item>
+        <item>도시시스템공학전공</item>
+        <item>건축공학전공</item>
+        <item>건축공학전공</item>
+        <item>화학신소재공학부</item>
+        <item>융합교양학부</item>
+
+        <item></item>
+    </string-array>
+    <string-array name="univ">
+        <item>창의ICT공과대학</item>
+        <item>공과대학</item>
+        <item>대학(전체)</item>
+    </string-array>
+    <string-array name="universityArea">
+        <item>전공기초</item>
+        <item>교양</item>
+        <item>전공</item>
+        <item>전공필수</item>
+        <item>자유선택</item>
+    </string-array>
+    <string-array name="grade">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>전체</item>
+    </string-array>
+</resources>

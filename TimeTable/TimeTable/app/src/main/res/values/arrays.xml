@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="major">
+        <item>컴퓨터공학부</item>
+        <item>경영학부(서울)</item>
+        <item>심리학과</item>
+        <item>사회복지학부</item>
+        <item>국어국문학과</item>
+        <item>영어영문학과</item>
+        <item>사회기반시스템공학부</item>
+        <item>건축학부</item>
+        <item>공공인재학부</item>
+        <item>수학과</item>
+        <item>융합교양학부</item>
+        <item>소프트웨어학부</item>
+        <item>대학전체</item>
+        <item></item>
+    </string-array>
+    <string-array name="univ">
+        <item>창의ICT공과대학</item>
+        <item>공과대학</item>
+    </string-array>
+    <string-array name="universityArea">
+        <item>전공기초</item>
+        <item>교양</item>
+        <item>전공</item>
+        <item>전공필수</item>
+    </string-array>
+    <string-array name="grade">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>전체</item>
+    </string-array>
+</resources>
